@@ -2,7 +2,7 @@
   color: chartreuse;
 }
 .navbar {
-  background-color: coral;
+  background-color: rgb(155, 71, 41);
   color: white;
 }
 .navbar-band {
@@ -20,7 +20,7 @@
   box-shadow: 0 0 10 orange;
 }
 .jumbotron {
-  background-image: url(../imagenes/florian-olivo-Mf23RF8xArY-unsplash.jpg);
+  background-image: url(../imagenes/timur-garifov--HlaGdSiC-g-unsplash.jpg);
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -50,4 +50,9 @@ h2 {
   text-align: center;
   color: springgreen;
   text-shadow: 0 0 10px;
+}
+
+.carousel .item img {
+  max-height: 768px;
+  min-width: auto;
 }
